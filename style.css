@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  position: auto;
+  top: 0;
+}
+
+h1 {
+  max-width: flex;
+  font-size: 35px;
+}
+
+p {
+  max-width: flex;
+  font-size: 15px;
+}
+
+body {
+    background-color: #ffffff;
+    color: #121212;
+  }
+  
+  .dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+  }
+
+  .button {
+    width: 100px;
+    height: 18px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: #4c8bf5;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  @media screen and (min-width: 768px) {
+  }
